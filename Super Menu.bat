@@ -1,3 +1,4 @@
+TITLE Super Menu
 @echo off
 :menu
 cls
