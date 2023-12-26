@@ -9,6 +9,8 @@ Powerful .bat menu that gives you the options to enter the following options. (e
 5. Open Task Manager
 6. Turn off computer
 
+   ....More to come
+
 
 IMPORTANT NOTE:  please be aware that the command to enter UEFI firmware settings (shutdown /r /fw /t 0) may not work on all systems. It depends on the system’s firmware and whether it supports this feature. If it doesn’t work, you’ll need to enter the UEFI firmware settings manually, usually by pressing a specific key (like F2, F10, or Del) during system startup. You can remove the option entirely. If you need assistance in doing so please feel free make a pull request and id be glad to help. (Removing line 6 & 14 in the code will remove this option entirely.)
 
