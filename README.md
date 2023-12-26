@@ -1,6 +1,7 @@
 # Batch-Menu
 Powerful .bat menu that gives you the options to enter the following options. (enter their corrosponding numbers, not their actions, followed by enter.)
 
+Displays Date/Time
 
 1. Reset Computer
 2. Enter UEFI firmware settings
