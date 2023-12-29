@@ -13,10 +13,13 @@ Displays Date/Time
 8. Open Control Panel
 9. Ping Google
 10. Kill a Process
+11. Change IP Address
 0. Turn OFF Computer
 C. Cancel Shutdowm
 
-   ![image](https://github.com/tactics-osrs/Batch-Menu/assets/76490725/7d7f8570-80b5-4050-a561-64be2ad3dba3)
+Preview
+   ![image](https://github.com/tactics-osrs/Batch-Menu/assets/76490725/9098e5ee-56b3-407e-b927-8570b3ef6086)
+
 
 
 
