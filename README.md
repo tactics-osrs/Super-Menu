@@ -19,9 +19,9 @@ Displays Date/Time
 0. Turn OFF Computer
 C. Cancel Shutdowm
 
-Preview
-   ![image](https://github.com/tactics-osrs/Batch-Menu/assets/76490725/9098e5ee-56b3-407e-b927-8570b3ef6086)
+![image](https://github.com/tactics-osrs/Batch-Menu/assets/76490725/d1c36b4f-4953-4539-a709-edf34c8012fe)
 
+PREVIEW
 
 
 
