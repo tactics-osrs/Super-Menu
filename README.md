@@ -32,7 +32,8 @@ Added a new option "C" which can be input within the 30 seconds to cancel any re
 
 Added Echos that will display what the file is executing upon entering a choice. (I.E. "30 seconds before the UEFI Firmware Settings will be entered."). 
 
-Added a Kill a Process option (10.) That will display all of your current running processes and then ask the user to input which process they want to kill, using "Process.extention" format(case sensitive).
+Added a Kill a Process option (10.) That will display all of your current running processes and then ask the user to input which process they want to kill.
+(using "Processname" format. NOT Case sensitive NO extension needed i.e. ".EXE")
 
 Added File Explorer option (12.) which will open your file explorer. (wow!)
 
