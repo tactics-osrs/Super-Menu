@@ -17,9 +17,8 @@ Displays Date/Time
 12. File Explorer
 13. Calculator
 0. Turn OFF Computer
-C. Cancel Shutdowm
+A. Abort Shutdowm
 
-![image](https://github.com/tactics-osrs/Batch-Menu/assets/76490725/d1c36b4f-4953-4539-a709-edf34c8012fe)
 
 PREVIEW
 
