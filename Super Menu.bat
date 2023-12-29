@@ -15,6 +15,7 @@ echo 6. Network and Internet Settings
 echo 7. Volume Mixer
 echo 8. Open Control Panel
 echo 9. Ping Google
+echo 10. Kill a Process
 echo 0. Turn Off Computer
 echo C. Cancel Shutdown
 echo.
@@ -46,6 +47,24 @@ if "%choice%"=="7" start sndvol.exe
 if "%choice%"=="8" start control panel
 
 if "%choice%"=="9" ping www.google.com
+
+if "%choice%"=="10" (
+    echo Displaying all running tasks...
+    tasklist
+    set /p process="Enter the process name: "
+    setlocal enabledelayedexpansion
+    for /f "tokens=*" %%a in ('taskkill /IM "%process%" /F 2^>^&1') do (
+        set "msg=%%a"
+        echo !msg!
+        if "!msg!"=="SUCCESS: The process \"%process%\" with PID * has been terminated." (
+            echo The process %process% was successfully terminated.
+            goto end_taskkill
+        )
+    )
+    :end_taskkill
+    endlocal
+    Pause
+)
 
 if "%choice%"=="0" (
 echo You have 30 seconds before the computer will turn off.
