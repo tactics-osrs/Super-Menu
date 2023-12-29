@@ -16,6 +16,7 @@ echo 7. Volume Mixer
 echo 8. Open Control Panel
 echo 9. Ping Google
 echo 10. Kill a Process
+echo 11. Change IP Address
 echo 0. Turn Off Computer
 echo C. Cancel Shutdown
 echo.
@@ -38,15 +39,31 @@ pause
 )
 if "%choice%"=="4" rundll32.exe powrprof.dll,SetSuspendState 0,1,0
 
-if "%choice%"=="5" start taskmgr
+if "%choice%"=="5" (
+echo Opening Task Manager...
+start taskmgr
+pause
+)
 
-if "%choice%"=="6" start ms-settings:network-wifi
+if "%choice%"=="6" (
+echo Opening Network and Internet Settings...
+start ms-settings:network-wifi
+)
 
-if "%choice%"=="7" start sndvol.exe
+if "%choice%"=="7" (
+echo Opening Volume Mixer...
+start sndvol.exe
+)
 
-if "%choice%"=="8" start control panel
+if "%choice%"=="8" (
+echo Opening Control Panel...
+start control panel
+)
 
-if "%choice%"=="9" ping www.google.com
+if "%choice%"=="9" (
+echo Attempting to Ping Google...
+ping www.google.com
+)
 
 if "%choice%"=="10" (
     echo Displaying all running tasks...
@@ -64,6 +81,22 @@ if "%choice%"=="10" (
     :end_taskkill
     endlocal
     Pause
+)
+
+if "%choice%"=="11" (
+    echo Are you sure you want to change your IP address? (yes/no)
+    set /p UserInput=
+    if /i "%UserInput%"=="yes" (
+        echo Changing IP address...
+        netsh interface ip set address name="Ethernet" static 192.168.42.42 255.255.255.0 192.168.42.1
+        netsh interface ip set dnsservers "Ethernet" static 8.8.8.8 validate=no
+        netsh interface ipv4 add dnsserver "Ethernet" address=8.8.4.4 index=2 validate=no
+        echo IP address changed successfully.
+        Pause
+    ) else (
+        echo Returning without changing IP address.
+        Pause
+    )
 )
 
 if "%choice%"=="0" (
