@@ -20,7 +20,7 @@ Displays Date/Time
 A. Abort Shutdowm
 
 
-![Uploading Screenshot 2023-12-29 152737.png…]()
+
 
 PREVIEW
 
