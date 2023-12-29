@@ -14,7 +14,7 @@ echo 5. Open Task Manager
 echo 6. Network and Internet Settings
 echo 7. Volume Mixer
 echo 8. Open Control Panel
-echo 9. Ping Google
+echo 9. Ping Tool
 echo 10. Kill a Process
 echo 11. Change IP Address
 echo 0. Turn Off Computer
@@ -61,8 +61,9 @@ start control panel
 )
 
 if "%choice%"=="9" (
-echo Attempting to Ping Google...
-ping www.google.com
+set /p website="Enter the website you want to ping: "
+echo Attempting to Ping %website%...
+ping %website%
 )
 
 if "%choice%"=="10" (
