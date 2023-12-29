@@ -11,7 +11,7 @@ Displays Date/Time
 6. Network and Internet Setting
 7. Volume Mixer
 8. Open Control Panel
-9. Ping Google
+9. Ping Tool
 10. Kill a Process
 11. Change IP Address
 0. Turn OFF Computer
