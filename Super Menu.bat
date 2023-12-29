@@ -20,7 +20,7 @@ echo 11. Change IP Address
 echo 12. File Explorer
 echo 13. Calculator
 echo 0. Turn Off Computer
-echo A. Cancel Shutdown
+echo A. Abort Shutdown
 echo.
 set /p choice="Enter your Choice: "
 
