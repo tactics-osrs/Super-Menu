@@ -14,6 +14,8 @@ Displays Date/Time
 9. Ping Tool
 10. Kill a Process
 11. Change IP Address
+12. File Explorer
+13. Calculator
 0. Turn OFF Computer
 C. Cancel Shutdowm
 
@@ -32,6 +34,10 @@ Added a new option "C" which can be input within the 30 seconds to cancel any re
 Added Echos that will display what the file is executing upon entering a choice. (I.E. "30 seconds before the UEFI Firmware Settings will be entered."). 
 
 Added a Kill a Process option (10.) That will display all of your current running processes and then ask the user to input which process they want to kill, using "Process.extention" format(case sensitive).
+
+Added File Explorer option (12.) which will open your file explorer. (wow!)
+
+Added Calculator option (13.) Opens calculator.
 
 Added a Change IP Address option (11.) that will prompt the user to enter yes/no to changing their IP. If no, a message will display "Returning without changing IP address." if yes, the batch script will utilize
 netsh to rewew your STATIC IP. If you are not running this batch file as administrator you will recieve the following message. 
