@@ -21,6 +21,7 @@ A. Abort Shutdowm
 
 
 
+![Screenshot 2023-12-29 152737](https://github.com/tactics-osrs/Batch-Menu/assets/76490725/ccb33b4b-534a-4fb4-a266-6129ca858d5f)
 
 PREVIEW
 
