@@ -20,7 +20,7 @@ echo 11. Change IP Address
 echo 12. File Explorer
 echo 13. Calculator
 echo 0. Turn Off Computer
-echo C. Cancel Shutdown
+echo A. Cancel Shutdown
 echo.
 set /p choice="Enter your Choice: "
 
@@ -134,7 +134,7 @@ shutdown /s /t 30
 pause
 goto menu
 )
-if /I "%choice%"=="C" (
+if /I "%choice%"=="A" (
 echo Cancelling scheduled shutdown...
 shutdown /a
 Pause
