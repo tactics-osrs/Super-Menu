@@ -3,6 +3,9 @@ TITLE Super Menu
 :menu
 cls
 echo.
+echo ================
+echo   SUPER MENU
+echo ================
 date /t
 time /t
 echo.
