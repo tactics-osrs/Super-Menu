@@ -36,7 +36,7 @@ Super Menu is a command-line interface (CLI) tool written in Batch scripting lan
 ## Usage
 Run the Super Menu.bat file in a command prompt window. Enter the number or letter corresponding to the operation you want to perform.
 
-Please note that some operations may require administrative privileges.
+* Please note that some operations may require administrative privileges.
 
 ## Disclaimer
 Use this tool at your own risk. Always ensure you have saved all your work before performing operations that could potentially interrupt your workflow. This batch file was written for personal utility and for educational/experience purposes only. Do not mis-use this file. I do not hold any responsibility of the use/misuse of this script. 
