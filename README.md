@@ -2,21 +2,36 @@
 Super Menu is a command-line interface (CLI) tool written in Batch scripting language for Windows. It provides a simple and user-friendly menu to access and perform various system operations.
 
 ## Features
-*Reset Computer: Resets the computer with a 30-second countdown.
-*Enter UEFI Firmware Settings: Enters UEFI firmware settings after a 30-second countdown.
-*Sign Out: Signs out the current user after a 30-second countdown.
-*Sleep: Puts the computer into sleep mode.
-*Open Task Manager: Opens the Task Manager.
-*Network and Internet Settings: Opens the Network and Internet settings.
-*Volume Mixer: Opens the Volume Mixer.
-*Open Control Panel: Opens the Control Panel.
-*Ping Tool: Pings a specified website.
-*Kill a Process: Terminates a specified process.
-*Change IP Address: Changes the IP address of the Ethernet interface.
-*File Explorer: Opens the File Explorer.
-*Calculator: Opens the Calculator.
-*Turn Off Computer: Shuts down the computer with a 30-second countdown.
-*Abort Shutdown: Cancels a scheduled shutdown.
+
+• Reset Computer: Resets the computer with a 30-second countdown.
+
+• Enter UEFI Firmware Settings: Enters UEFI firmware settings after a 30-second countdown.
+
+• Sign Out: Signs out the current user after a 30-second countdown.
+
+• Sleep: Puts the computer into sleep mode.
+
+• Open Task Manager: Opens the Task Manager.
+
+• Network and Internet Settings: Opens the Network and Internet settings.
+
+• Volume Mixer: Opens the Volume Mixer.
+
+• Open Control Panel: Opens the Control Panel.
+
+• Ping Tool: Pings a specified website.
+
+• Kill a Process: Terminates a specified process.
+
+• Change IP Address: Changes the IP address of the Ethernet interface.
+
+• File Explorer: Opens the File Explorer.
+
+• Calculator: Opens the Calculator.
+
+• Turn Off Computer: Shuts down the computer with a 30-second countdown.
+
+• Abort Shutdown: Cancels a scheduled shutdown.
 
 ## Usage
 Run the Super Menu.bat file in a command prompt window. Enter the number or letter corresponding to the operation you want to perform.
