@@ -1,5 +1,5 @@
 ## Super Menu
-Super Menu is a command-line interface (CLI) tool written in Batch scripting language for Windows. It provides a simple and user-friendly menu to access and perform various system operations.
+Super Menu is a command-line interface (CLI) tool written in Batch scripting language for Windows. It provides a simple and user-friendly menu packed with options to access and perform various system operations.
 
 ## Features
 
