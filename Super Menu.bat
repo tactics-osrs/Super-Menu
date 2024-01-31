@@ -1,3 +1,7 @@
+REM Script Name: Super Menu
+REM Date Written: December 26, 2023
+REM Written By: Tactics
+
 TITLE Super Menu
 @echo off
 :menu
